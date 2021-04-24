@@ -1,0 +1,46 @@
+
+.window{
+    text-align: center;
+}
+button{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 80px;
+}
+button:hover{
+    background: gainsboro;
+}
+.flex-container {
+    display: flex;
+    background-color: rgb(192, 193, 194);
+    flex-direction:column;
+  }
+  
+  header{
+      /* background: black; */
+      color: white;
+      border-radius: 10px;
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+      padding: 10px;
+      background: #B24592;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .editableBox{
+      height: 200px;
+      padding: 20px;
+      background-color: white;
+  }
+  textarea{
+    font-size: 16px; 
+  }
+.title{
+    text-align: left;
+    background: #fff;
+}

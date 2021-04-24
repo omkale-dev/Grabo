@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Grabo",
+    "version": "1.0.0",
+    "description": "This extension lets you to copy content from multiple webpages into a single file",
+    "short_name": "Grabo",
+    "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+    "browser_action": {
+      "default_title": "Grabo",
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/grabo-16.png",
+        "32": "icons/grabo-32.png",
+        "128": "icons/grabo-128.png"
+
+      }
+    }
+   }
